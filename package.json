@@ -1,0 +1,19 @@
+{
+  "name": "auto-trade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js BTCUSDT",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "node-binance-api": "^0.12.5",
+    "node-fetch": "^2.6.1",
+    "pako": "^2.0.3",
+    "querystring": "^0.2.0"
+  }
+}
